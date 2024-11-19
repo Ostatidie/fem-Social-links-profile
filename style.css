@@ -1,0 +1,82 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%); 
+    --Grey900: hsl(0, 0%, 8%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: var(--Grey900);
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 14px;
+    color: rgb(204, 200, 200);
+    margin-bottom: 25px;
+}
+span{
+    color: var(--Green);
+    font-weight: 600;
+}
+h1{
+    font-weight: 600;
+    color: var(--White);
+    margin-bottom: 9px;
+}
+.info{
+    margin-bottom: -5px;
+}
+.card{
+    background-color: var(--Grey800);
+    height: 700px;
+    border-radius: 1rem;
+    width: 450px;
+    padding: 40px 25px  25px  25px;
+}
+img{
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+button{
+    width: 350px;
+    border-radius: 10px;
+    color: var(--White);
+    background-color: var(--Grey700);
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    font-weight: 700;
+    height: 58px;
+    font-size: 17px;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+    transform: scale(1.02);
+}
+button:last-child{
+    margin-bottom: -50px;
+}
+.btns{
+    text-align: center;
+    width: 400px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
